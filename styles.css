@@ -13,6 +13,7 @@
     font-family: var(--fonte-principal);
 }
 
+/* CORPO INTEIRO DO SITE */
 body{
     background-image: linear-gradient(to left, #006064, rgb(224,247,250));
     display: flex;
@@ -22,6 +23,7 @@ body{
     height: 100vh;
 }
 
+/* CARD */
 .container{
     background-color: var(--background-color-card);
     border-radius: 5%;
@@ -31,4 +33,11 @@ body{
     width: 65%;
     max-width: 100%;
     min-height: 50%;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 10%;
+    letter-spacing: 0.3px;
+    margin: 10% 0;
 }
