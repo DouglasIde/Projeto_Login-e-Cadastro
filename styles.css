@@ -2,6 +2,8 @@
 
 :root {
     --fonte-principal: 'Montserrat', sans-serif;
+
+    --background-color-card: #fff;
 }
 
 * {
@@ -18,4 +20,15 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+}
+
+.container{
+    background-color: var(--background-color-card);
+    border-radius: 5%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+    position: relative;
+    overflow: hidden;
+    width: 65%;
+    max-width: 100%;
+    min-height: 50%;
 }
