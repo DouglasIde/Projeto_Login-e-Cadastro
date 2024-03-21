@@ -13,4 +13,9 @@
 
 body{
     background-image: linear-gradient(to left, #006064, rgb(224,247,250));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
